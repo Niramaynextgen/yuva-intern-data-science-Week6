@@ -1,0 +1,20 @@
+
+WEEK 6 MODEL EVALUATION SUMMARY
+
+Dataset rows evaluated: 15000
+Target column: Rating
+Training rows: 12000
+Testing rows: 3000
+
+Best model by test MAE: Mean Baseline
+Test MAE: 1.0228
+Test RMSE: 1.1721
+Test R-squared: -0.0006
+Cross-validation MAE mean: 1.0116
+
+MAE measures average absolute prediction error in rating points.
+RMSE penalizes larger errors more strongly.
+R-squared measures performance relative to a mean-based reference.
+
+These models predict product ratings, not sales or revenue.
+The results show patterns and predictive performance, not causation.
